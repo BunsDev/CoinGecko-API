@@ -1,18 +1,18 @@
 # CoinGecko API Client for Node.js
 
-<span class="badge-travisci"><a href="http://travis-ci.org/miscavage/CoinGecko-API" title="Check this project's build status on TravisCI"><img src="https://img.shields.io/travis/miscavage/CoinGecko-API/master.svg" alt="Travis CI Build Status" /></a></span>
-<span class="badge-npmversion"><a href="https://npmjs.org/package/coingecko-api" title="View this project on NPM"><img src="https://img.shields.io/npm/v/coingecko-api.svg" alt="NPM version"/></a></span>
-<span class="badge-npmdownloads"><a href="https://npmjs.org/package/coingecko-api" title="View this project on NPM"><img src="https://img.shields.io/npm/dm/coingecko-api.svg" alt="NPM downloads" /></a></span>
-<span class="badge-daviddm"><a href="https://david-dm.org/miscavage/coingecko-api" title="View the status of this project's dependencies on DavidDM"><img src="https://img.shields.io/david/miscavage/coingecko-api.svg" alt="Dependency Status" /></a></span>
-<span class="badge-daviddmdev"><a href="https://david-dm.org/miscavage/coingecko-api#info=devDependencies" title="View the status of this project's development dependencies on DavidDM"><img src="https://img.shields.io/david/dev/miscavage/coingecko-api.svg" alt="Dev Dependency Status" /></a></span>
+<span class="badge-travisci"><a href="http://travis-ci.org/BunsDev/CoinGecko-API" title="Check this project's build status on TravisCI"><img src="https://img.shields.io/travis/BunsDev/CoinGecko-API/master.svg" alt="Travis CI Build Status" /></a></span>
+<span class="badge-npmversion"><a href="https://npmjs.org/package/token-explorer-api" title="View this project on NPM"><img src="https://img.shields.io/npm/v/token-explorer-api" alt="NPM version"/></a></span>
+<span class="badge-npmdownloads"><a href="https://npmjs.org/package/token-explorer-api" title="View this project on NPM"><img src="https://img.shields.io/npm/dm/token-explorer-api" alt="NPM downloads" /></a></span>
+<span class="badge-daviddm"><a href="https://david-dm.org/BunsDev/coingecko-api" title="View the status of this project's dependencies on DavidDM"><img src="https://img.shields.io/david/BunsDev/coingecko-api.svg" alt="Dependency Status" /></a></span>
+<span class="badge-daviddmdev"><a href="https://david-dm.org/BunsDev/coingecko-api#info=devDependencies" title="View the status of this project's development dependencies on DavidDM"><img src="https://img.shields.io/david/dev/BunsDev/coingecko-api.svg" alt="Dev Dependency Status" /></a></span>
 
 A Node.js wrapper for the CoinGecko API with no dependencies.
 
 ## • Installation
 
-Latest version: 1.0.10
+Latest version: 1.0.2
 
-`npm install coingecko-api`
+`npm install token-explorer-api`
 
 ## • CoinGecko API Documentation
 
@@ -21,8 +21,8 @@ For complete API documentation, up-to-date parameters, responses and errors, ple
 ## • Quick Start Example
 
 ```javascript
-//1. Import coingecko-api
-const CoinGecko = require('coingecko-api');
+//1. Import token-explorer-api
+const CoinGecko = require('token-explorer-api');
 
 //2. Initiate the CoinGecko API Client
 const CoinGeckoClient = new CoinGecko();
@@ -776,15 +776,13 @@ let data = await CoinGeckoClient.derivatives.listExchanges();
 
 ## • Say Hi
 
-Find me on Gab: [@markmiscavage](https://gab.com/markmiscavage).
-
-Tweet at me: [@markmiscavage](https://twitter.com/markmiscavage).
+Tweet at me: [@0xBuns](https://twitter.com/0xBuns).
 
 ## • License
 
 MIT License
 
-Copyright (c) 2020 Mark Miscavage
+Copyright (c) 2022 Buns Enchantress
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

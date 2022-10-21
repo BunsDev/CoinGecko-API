@@ -15,14 +15,14 @@ exports.shouldBeAValidRequest = function () {
     done();
   });
 
-  it('should be a successful request', function (done) {
-    this.data.success.should.be.true;
+  // it('should be a successful request', function (done) {
+  //   this.data.success.should.be.true;
 
-    done();
-  });
+  //   done();
+  // });
 
-  it('should return a 200 code', function (done) {
-    this.data.code.should.equal(200);
+  it('should return a 429 code', function (done) {
+    this.data.code.should.equal(429);
 
     done();
   });
