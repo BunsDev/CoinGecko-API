@@ -1,10 +1,10 @@
 {
   "name": "token-explorer-api",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A Node.js wrapper for the CoinGecko API with no dependencies.",
   "main": "index.js",
   "homepage": "https://github.com/BunsDev/CoinGecko-API#readme",
-  "author": "Mark Miscavage",
+  "author": "Buns Enchantress",
   "license": "MIT",
   "scripts": {
     "test": "mocha --no-timeouts --reporter spec \"./tests/lib/*.js\" \"./tests/lib/**/*.js\""
