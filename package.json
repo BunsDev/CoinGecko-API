@@ -1,9 +1,9 @@
 {
-  "name": "coingecko-api",
-  "version": "1.0.10",
+  "name": "token-explorer-api",
+  "version": "1.0.0",
   "description": "A Node.js wrapper for the CoinGecko API with no dependencies.",
   "main": "index.js",
-  "homepage": "https://github.com/miscavage/CoinGecko-API#readme",
+  "homepage": "https://github.com/BunsDev/CoinGecko-API#readme",
   "author": "Mark Miscavage",
   "license": "MIT",
   "scripts": {
@@ -11,10 +11,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/miscavage/CoinGecko-API.git"
+    "url": "git+https://github.com/BunsDev/CoinGecko-API.git"
   },
   "bugs": {
-    "url": "https://github.com/miscavage/CoinGecko-API/issues"
+    "url": "https://github.com/BunsDev/CoinGecko-API/issues"
   },
   "keywords": [
     "coingecko",
